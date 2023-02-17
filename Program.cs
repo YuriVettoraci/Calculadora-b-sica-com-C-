@@ -9,8 +9,8 @@ namespace testee
             int opçaoNumerica = 5;
             while (opçaoNumerica != 0)
             {
-                Console.WriteLine("--------------MENU--------------\n");
-                Console.WriteLine("Digite uma opção: 1 = Soma \n 2 = Subtração \n 3 = Multiplicação \n 4 = Divisão \n 0 = Sair");
+                Console.WriteLine("\n--------------MENU--------------");
+                Console.WriteLine(" 1 = Soma \n 2 = Subtração \n 3 = Multiplicação \n 4 = Divisão \n 0 = Sair\n Digite uma opção:");
                 Console.WriteLine("--------------------------------");
                 opçaoNumerica = Convert.ToInt32(Console.ReadLine());
                 if (opçaoNumerica > 4)
